@@ -3,7 +3,7 @@ import Carrito from "../Assets/img/Carrito.png"
 const CardWidget=({Contador})=>{
     return( 
     <div> 
-       <img  src={Carrito} alt="" /><span className="span-carrito">  {Contador}</span>
+       <img className="img-carrito"  src={Carrito} alt="" /><span className="span-carrito">  {Contador}</span>
        </div>
        )
 }
